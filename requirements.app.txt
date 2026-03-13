@@ -1,0 +1,9 @@
+streamlit
+requests
+chromadb
+pandas
+pyarrow
+sentence-transformers
+transformers
+torch
+rank-bm25

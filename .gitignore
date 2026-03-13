@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Pip / uv / poetry
+pip-wheel-metadata/
+*.lock
+uv.lock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+.env.*
+*.env
+
+# Docker
+docker-compose.override.yml
+
+# Streamlit local config
+.streamlit/secrets.toml
+
+# Ignore temporary data files but keep index assets
+data/tmp/
+data/cache/
+
+# Optional: if chroma creates temp files
+*.sqlite3-wal
+*.sqlite3-shm
